@@ -24,7 +24,7 @@ Use the folder printed by the command. Never overwrite a previous issue; use a n
 2. **Plan** — run `article-planning`; turn one theme into a reader, promise, offer, distribution hypothesis, and measurable success condition in `02-plan/`.
 3. **Source** — run `author-experience-extraction`; place author facts, consent, and Unknowns in `03-source/`. Do not proceed with an experience-led claim lacking a source.
 4. **Write** — run `article-writing`; create `04-draft/article.md` and its claim ledger. Follow [references/value-design.md](references/value-design.md) to make the article substantial without fabricated experiences or outcomes.
-5. **Package** — run `publishing`; place the unchanged final body plus platform metadata in `05-package/`.
+5. **Package + SEO backlog** — run `publishing`; copy the unchanged final body, platform metadata, and a search-intent-led next-topic map into `05-package/`. Read [references/seo-topic-design.md](references/seo-topic-design.md). SEOテーマは次回以降の企画候補であり、検索需要を確認せずに「需要がある」と断定しない。
 6. **Publish and learn** — record the URL and observed data in `06-performance/`. Run `performance-analysis` only after data exists; return its next hypothesis to the next issue.
 
 Use existing `research/` reports as legacy inputs. Link to them in `00-brief/inputs.md`; do not edit them merely to fit this layout.
@@ -40,6 +40,16 @@ For paid articles, free content must independently solve a small problem. Put th
 ## Weekly operating rule
 
 At the start of each month, set four testable issue goals. Price × required sales is a planning calculation only. Example: ¥500 × 100 sales = ¥50,000 before fees; it is not a forecast. Diversify the four issues by reader problem and intent, then use performance evidence to decide what to repeat.
+
+## Package the final article
+
+After the draft is approved, create the immutable publishing copy:
+
+```bash
+python3 skills/note-weekly-pipeline/scripts/prepare_package.py output/<issue-folder>
+```
+
+Then complete `05-package/seo-topic-map.md`: select one primary query per proposed article, state the reader's intent, outline a distinct promise, and name the internal link to this or another article. Pass only validated candidates to the next issue's research stage.
 
 ## Validate before handoff
 

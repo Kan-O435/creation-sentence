@@ -68,6 +68,14 @@ def main() -> int:
     write_if_missing(issue / "04-draft" / "article.md", f"# {args.title}\n\n<!-- Write the approved draft here. -->\n")
     write_if_missing(issue / "04-draft" / "claim-ledger.md", "# Claim ledger\n\n| Article section | Claim | Label | Source / calculation | Status |\n|---|---|---|---|---|\n")
     write_if_missing(issue / "05-package" / "publish.yml", "platform: note\nstatus: draft\narticle_source: ../04-draft/article.md\nprice: null\ntags: []\npublished_url: null\n")
+    write_if_missing(issue / "05-package" / "seo-topic-map.md", """# SEO topic map
+
+Use `references/seo-topic-design.md`. All candidates begin as hypotheses until search intent and competing content are checked.
+
+## Candidates
+
+<!-- Add one candidate per heading. -->
+""")
     write_if_missing(issue / "06-performance" / "metrics.yml", "observed_at: null\nviews: null\nlikes: null\npurchases: null\nrevenue_jpy: null\nsource: null\n")
     write_if_missing(issue / "06-performance" / "review.md", "# Performance review\n\nRun after sufficient observation; distinguish observed data, calculations, and hypotheses.\n")
     print(issue)

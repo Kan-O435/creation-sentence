@@ -1,8 +1,8 @@
 platform: note
 status: needs-publication-settings
 article_source: ../04-draft/article.md
-price: 300
-tags: [恋愛, 婚活, マッチングアプリ, コミュニケーション, 体験談]
+price: null
+tags: [マッチングアプリ, 恋愛, 婚活, コミュニケーション, 会話術]
 published_url: null
 thumbnail_status: not-created
 category_status: needs-platform-confirmation

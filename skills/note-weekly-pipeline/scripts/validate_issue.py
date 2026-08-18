@@ -8,7 +8,7 @@ from pathlib import Path
 REQUIRED = (
     "00-brief/brief.md", "00-brief/inputs.md", "01-research/research.md",
     "02-plan/plan.md", "03-source/source-ledger.md", "04-draft/article.md",
-    "04-draft/claim-ledger.md", "05-package/publish.yml",
+    "04-draft/claim-ledger.md", "05-package/publish.yml", "05-package/seo-topic-map.md",
     "06-performance/metrics.yml", "06-performance/review.md",
 )
 

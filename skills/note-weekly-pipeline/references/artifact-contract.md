@@ -10,10 +10,12 @@ Each issue is self-contained under `output/YYYY-MM-DD-<slug>/`. Files may be Mar
 | Plan | `02-plan/plan.md` | article-planning | sourcing, writing |
 | Source | `03-source/source-ledger.md` | author-experience-extraction | writing |
 | Draft | `04-draft/article.md`, `04-draft/claim-ledger.md` | article-writing | publishing |
-| Package | `05-package/article.md`, `05-package/publish.yml` | publishing | publishing, analysis |
+| Package | `05-package/article.md`, `05-package/publish.yml`, `05-package/seo-topic-map.md` | publishing | publishing, next research |
 | Performance | `06-performance/metrics.yml`, `06-performance/review.md` | operator, performance-analysis | next brief |
 
 `article.md` under `05-package/` is the publication source of truth. Copy it from the approved draft; changes that alter meaning go back to `04-draft/` and must update the claim ledger.
+
+`seo-topic-map.md` is a backlog, not a claim that a keyword will rank or sell. Each candidate must contain one primary query, search intent, reader problem, unique promise, planned format, internal-link destination, evidence status, and next validation action.
 
 ## Required metadata
 

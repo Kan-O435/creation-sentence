@@ -1158,7 +1158,7 @@ YAMLなどのコードブロックを出力する場合は、
 
 ## 33.1 Weekly Pipeline Integration
 
-新規案件では、公開パッケージを `output/YYYY-MM-DD-<slug>/05-package/` に保存する。`publish.yml` にPlatform、価格、タグ、公開URL、サムネイルの状態を記録し、`article_source` は承認済み原稿を指す。本文の意味を変える修正は `04-draft/` に戻してClaim Ledgerも更新する。
+新規案件では、公開パッケージを `output/YYYY-MM-DD-<slug>/05-package/` に保存する。`publish.yml` にPlatform、価格、タグ、公開URL、サムネイルの状態を記録し、`article_source` は承認済み原稿を指す。さらに `seo-topic-map.md` に、この原稿から派生する次回以降のSEOテーマ候補を保存する。各候補はPrimary Query、検索意図、読者課題、独自の約束、内部導線、検証状態を含める。検索需要・順位・売上を未検証のまま断定しない。本文の意味を変える修正は `04-draft/` に戻してClaim Ledgerも更新する。
 
 外側：
 ~~~markdown
