@@ -18,6 +18,8 @@ python3 skills/note-weekly-pipeline/scripts/new_issue.py \
 
 Use the folder printed by the command. Never overwrite a previous issue; use a new slug or `--date` only for an intentional backfill. Read [references/artifact-contract.md](references/artifact-contract.md) for the required files and stage handoffs.
 
+To run the entire workflow from a single request, copy [references/weekly-article-prompt.md](references/weekly-article-prompt.md), fill only the input block, and keep unknown fields as `未定`.
+
 ## Run the stages
 
 1. **Research** — run `market-research`, `opportunity-analysis`, and `theme-discovery`; write evidence and uncertainty to `01-research/`.
