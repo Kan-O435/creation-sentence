@@ -922,6 +922,10 @@ research/market/YYYY-MM-DD.md
 
 research/market/2026-08-17.md
 
+## 28.1 Weekly Pipeline Integration
+
+新規の案件では、詳細な調査結果またはその要約を `output/YYYY-MM-DD-<slug>/01-research/research.md` に保存する。既存の `research/market/` は後方互換の履歴として扱い、同じ案件の `00-brief/inputs.md` から正確なファイルへリンクする。
+
 既存ファイルが存在する場合は上書きしない。
 
 ---

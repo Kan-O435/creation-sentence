@@ -1395,6 +1395,10 @@ Market Research / Opportunity Analysis / Theme Discoveryの結果と統合して
 
 # 32. Final Output Philosophy
 
+## Weekly Pipeline Integration
+
+観測値は `output/YYYY-MM-DD-<slug>/06-performance/metrics.yml`、分析と次回の仮説は `review.md` に保存する。観測値・計算値・解釈・仮説・Unknownを分離し、次の案件の `00-brief/inputs.md` から参照する。収益目標は過去の確定データが揃うまで予測値として扱わない。
+
 このSkillの最終的な価値は、
 
 「この記事は良かった／悪かった」

@@ -1105,6 +1105,10 @@ Privacy
 
 最終出力は、単なる「著者の話の要約」では不十分である。
 
+## Weekly Pipeline Integration
+
+新規案件では、Fact / Author Interpretation / Unknown / consent・privacy制約を `output/YYYY-MM-DD-<slug>/03-source/source-ledger.md` に表で保存する。Article WritingはこのLedgerのIDを `04-draft/claim-ledger.md` に対応付け、未確認の経験を本文の具体性のために補わない。
+
 Article Writingがそのまま参照できるよう、
 
 事実

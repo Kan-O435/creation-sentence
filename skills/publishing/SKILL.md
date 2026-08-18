@@ -1156,6 +1156,10 @@ Publishing ReportはMarkdownとしてそのまま保存できる形式で出力�
 
 YAMLなどのコードブロックを出力する場合は、
 
+## 33.1 Weekly Pipeline Integration
+
+新規案件では、公開パッケージを `output/YYYY-MM-DD-<slug>/05-package/` に保存する。`publish.yml` にPlatform、価格、タグ、公開URL、サムネイルの状態を記録し、`article_source` は承認済み原稿を指す。本文の意味を変える修正は `04-draft/` に戻してClaim Ledgerも更新する。
+
 外側：
 ~~~markdown
 

@@ -1126,6 +1126,12 @@ Privacy Check
 
 Publishing側では、Article Writingの内容を勝手に変更して著者経験を追加してはならない。
 
+## 46.1 Weekly Pipeline Integration
+
+新規の運用では、完成原稿を `output/YYYY-MM-DD-<slug>/04-draft/article.md`、Claim Ledgerを同じフォルダの `claim-ledger.md` に保存する。既存の `research/article-writing/` は後方互換のための入力・履歴として保持する。
+
+本文の厚みは、確認済みの経験を水増しすることではなく、読者が使えるフレームワーク、判断基準、チェックリスト、明示した架空例、反証・限界、次の一歩によって作る。架空例は必ず `架空例` と表示し、著者経験と混同させない。収益や成果の試算は、前提と計算式を示し `試算` と表示する。
+
 47. Prohibited Behaviors
 
 以下を禁止する。

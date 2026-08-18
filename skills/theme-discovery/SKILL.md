@@ -906,6 +906,10 @@ Article Planningがそのまま利用できる情報を渡す。
 
 # 26. Output Format
 
+## Weekly Pipeline Integration
+
+選定Theme、対象読者、問題、差別化、Evidence Confidenceを、案件フォルダの `01-research/research.md` の「Theme decision」に引き渡す。Article Planningはこのファイルと `00-brief/inputs.md` を入力とし、旧 `research/theme/` は履歴としてリンクする。
+
 最終レポートは以下の形式を基本とする。
 
 # Theme Discovery

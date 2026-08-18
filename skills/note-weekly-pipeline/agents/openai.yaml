@@ -1,0 +1,4 @@
+interface:
+  display_name: "Note Weekly Pipeline"
+  short_description: "Create and ship richer note articles weekly"
+  default_prompt: "Run the weekly note content pipeline for this topic and create a publication-ready package."

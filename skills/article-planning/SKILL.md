@@ -1132,6 +1132,10 @@ research/article-plan/YYYY-MM-DD-02.md
 
 ただし、明示的に「上書き」と指定された場合は上書きする。
 
+## 41.1 Weekly Pipeline Integration
+
+新規案件の正本は `output/YYYY-MM-DD-<slug>/02-plan/plan.md` とする。テーマ、Promise、無料/有料の価値差、価格仮説、Distribution仮説、Primary KPI、失敗条件を同ファイルへ必ず残す。`research/article-plan/` は既存運用との互換用に保持してよいが、案件フォルダの `00-brief/inputs.md` からリンクする。
+
 ---
 
 # 42. Required Output Structure

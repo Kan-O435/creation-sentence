@@ -944,3 +944,7 @@ Opportunity Analysisの目的は、
 という結論を許容する。
 
 最終的にはTier 1候補をTheme Discoveryへ引き渡し、具体的なテーマ・読者・課題・競合・価格・販売事例の検証へ進む。
+
+## Weekly Pipeline Integration
+
+Opportunityの結論・反証・不確実性を、案件フォルダの `01-research/research.md` に集約する。市場調査の観測値、評価、仮説を混同せず、次工程が同じ `issue_id` を参照できるようにする。
